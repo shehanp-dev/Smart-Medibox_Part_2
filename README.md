@@ -81,15 +81,25 @@ Where:
 - [Git](https://git-scm.com/)  
 - [VS Code](https://code.visualstudio.com/) + [PlatformIO](https://platformio.org/)  
 - [Node-RED](https://nodered.org/) installed  
-- MQTT broker (default: [test.mosquitto.org](https://test.mosquitto.org))  
+- MQTT broker (default: [test.mosquitto.org](https://test.mosquitto.org))
 
-### Clone Repository
+## Medibox Setup
+*   Clone the repository.
+    ```bash 
+    git clone https://github.com/shehanp-dev/Smart-Medibox.git   
+    ```
 
-git clone https://github.com/shehanp-dev/Smart-Medibox.git
+ >[!IMPORTANT]<br>
+> If you are willing to simulate the project using Wokwi extension, then clone the relavant branch using this, instead. (Or you can switch branches later.)
+>    ```bash 
+>     git clone -b Wokwi https://github.com/shehanp-dev/Smart-Medibox.git   
+>  ```
 
-If you are willing to simulate the project using Wokwi extension, then clone the relavant branch using this, instead. (Or you can switch branches later.)
 
-git clone -b Wokwi https://github.com/shehanp-dev/Smart-Medibox.git
+* Typically platform I/O will install required libraries itself. If not you have to install them referring the [`platform.ini`](#platform.ini)
+ file displayed above.
+
+* Compile and Upload/Simulate.
 
 ## 📊 Visualization  
 
