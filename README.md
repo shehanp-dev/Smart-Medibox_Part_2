@@ -5,8 +5,9 @@
 ![ESP32](https://img.shields.io/badge/Platform-ESP32-blue)
 ![Language](https://img.shields.io/badge/Language-Arduino-green)
 ![Simulation](https://img.shields.io/badge/Simulation-Wokwi-orange)
-This is my implementation of the **Smart Medibox** for  
-`EN2853 - Embedded Systems & Applications` (Programming Assignment 2).  
+
+
+This is my implementation of the **Smart Medibox** for  EN2853 - Embedded Systems & Applications module`  
 
 The Medibox helps users manage **medication schedules** and improve **medicine storage safety** by monitoring **light intensity** and **temperature**, while adjusting a **servo-controlled sliding window** to keep medicines in safe conditions.
 
@@ -47,18 +48,9 @@ The Medibox helps users manage **medication schedules** and improve **medicine s
 - **Node-RED** (Dashboard + MQTT broker `test.mosquitto.org`)  
 - **PlatformIO / Arduino Framework**  
 
-<div align="center">
-	<code><img width="50" src="./192108891-d86b6220-e232-423a-bf5f-90903e6887c3.png" alt="Visual Studio Code" title="Visual Studio Code"/></code>
-	<code><img width="50" src="./192106073-90fffafe-3562-4ff9-a37e-c77a2da0ff58.png" alt="C++" title="C++"/></code>
-	<code><img width="50" src="node-red-icon.png" alt="Node-Red" title="Node-Red"/></code>
-	<code><img width="50" src="./274697405_404517471478609_1469547816363376057_n-removebg-preview.png" alt="Wokwi" title="Wokwi"/></code>
-	<code><img width="50" src="./PlatformIO_logo.svg" alt="PlatformIO" title="UPlatformIO"/></code>
-	<code><img width="50" src="255505529-a57a85ba-e2dd-4036-85b6-7e1532391627.png" alt="Arduino" title="Arduino"/></code>
-</div>
 
----
 
-## 📐 Motor Angle Equation
+## 📐 Motor Angle Calculation
 
 The servo motor angle `θ` is calculated as:
 
