@@ -2,6 +2,9 @@
 
 # 💊 Smart Medibox – Assignment Project
 
+![ESP32](https://img.shields.io/badge/Platform-ESP32-blue)
+![Language](https://img.shields.io/badge/Language-Arduino-green)
+![Simulation](https://img.shields.io/badge/Simulation-Wokwi-orange)
 This is my implementation of the **Smart Medibox** for  
 `EN2853 - Embedded Systems & Applications` (Programming Assignment 2).  
 
