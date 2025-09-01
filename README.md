@@ -1,11 +1,13 @@
 
-# Smart Medi Box-Medication Management System(part 02)
+# Smart MediBox – Medication Management System (Part 02)
 
 ![Banner](Imeges/Banner_1.png)
 
-![ESP32](https://img.shields.io/badge/Platform-ESP32-blue)
-![Language](https://img.shields.io/badge/Language-Arduino-green)
-![Simulation](https://img.shields.io/badge/Simulation-Wokwi-orange)
+![ESP32](https://img.shields.io/badge/Platform-ESP32-blue)  
+![Language](https://img.shields.io/badge/Language-Arduino-green)  
+![Simulation](https://img.shields.io/badge/Simulation-Wokwi-orange)  
+![Node-RED](https://img.shields.io/badge/Node--RED-Dashboard-red)  
+![MQTT](https://img.shields.io/badge/MQTT-Broker-brightgreen)
 
 # Introduction
 This is my implementation of the **Smart Medibox** project for  EN2853 - Embedded Systems & Applications module.  
@@ -97,6 +99,12 @@ Where:
  file displayed above.
 
 * Compile and Upload/Simulate.
+## Simulation Video
+
+* You can watch the full simulation and demo of the Smart Medibox project on YouTube:
+
+[![Watch the Simulation Video](https://img.youtube.com/vi/6oBjj26GxjA/0.jpg)](https://youtu.be/6oBjj26GxjA?si=cv0HzX4zCxYbLFkd)
+
 
 ## Visualization  
 ### 🔹Node-RED Flow  
@@ -104,3 +112,9 @@ Where:
 
 ### 🔹 Node-RED Dashboard  
 ![Node-RED Dashboard](Imeges/Dashboard.jpg)  
+
+## Notes
+
+- Make sure you have the correct **hardware connections** if running on a physical ESP32 board.  
+- Adjust the **Node-RED sliders** to dynamically change light sampling intervals, sending intervals, servo angle, controlling factor, and ideal medicine temperature.  
+- This project is designed for **educational purposes** and can be extended with more sensors or IoT features.  
