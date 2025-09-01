@@ -1,5 +1,5 @@
 
-# Smart Medi Box - Medication Management System-part 02 💊
+# Smart Medi Box-Medication Management System(part 02)
 
 ![Banner](Imeges/Banner_1.png)
 
@@ -99,14 +99,8 @@ Where:
 * Compile and Upload/Simulate.
 
 ## Visualization  
-
-### 🔹 Wokwi Simulation  
-![Wokwi Simulation](Images/Wokwi_Simulation.png)  
-
 ### 🔹Node-RED Flow  
 ![Node-Red Flow](Imeges/Nodered_Flow.png)  
 
 ### 🔹 Node-RED Dashboard  
 ![Node-RED Dashboard](Imeges/Dashboard.jpg)  
-"# Smart-MediBox-Part-02" 
-"# Smart-Medibox_02" 
