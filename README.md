@@ -103,10 +103,10 @@ Where:
 ### 🔹 Wokwi Simulation  
 ![Wokwi Simulation](Images/Wokwi_Simulation.png)  
 
-### 🔹 Node-RED Flow  
-![Node-RED Flow](Nodered Flow/Nodered Flow.png)  
+### 🔹Node-RED Flow  
+![Wokwi Simulation](Imeges/Nodered Flow)  
 
 ### 🔹 Node-RED Dashboard  
-![Node-RED Dashboard](Images/NodeRED_Dashboard.png)  
+![Node-RED Dashboard](Imeges/Dashboard.jpg)  
 "# Smart-MediBox-Part-02" 
 "# Smart-Medibox_02" 
