@@ -1,5 +1,5 @@
 
-# 💊 Smart Medi Box - Medication Management System-part 02
+# Smart Medi Box - Medication Management System-part 02 💊
 
 ![Banner](Imeges/Banner_1.png)
 
@@ -14,7 +14,7 @@ The Medibox helps users manage **medication schedules** and improve **medicine s
 
 ---
 
-## ✨ Features
+## Features
 
 1. **Light Intensity Monitoring**
    - Measures light inside the box using **LDR sensors**.  
@@ -40,7 +40,7 @@ The Medibox helps users manage **medication schedules** and improve **medicine s
 
 ---
 
-## 🛠️ Components & Technologies
+## Components & Technologies
 
 - **ESP32 Devkit V1**  
 - **DHT11 Sensor** (Temperature & Humidity)  
@@ -51,7 +51,7 @@ The Medibox helps users manage **medication schedules** and improve **medicine s
 
 
 
-## 📐 Motor Angle Calculation
+## Motor Angle Calculation
 
 The servo motor angle `θ` is calculated as:
 
@@ -72,7 +72,7 @@ Where:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - [Git](https://git-scm.com/)  
@@ -98,13 +98,13 @@ Where:
 
 * Compile and Upload/Simulate.
 
-## 📊 Visualization  
+## Visualization  
 
 ### 🔹 Wokwi Simulation  
 ![Wokwi Simulation](Images/Wokwi_Simulation.png)  
 
 ### 🔹 Node-RED Flow  
-![Node-RED Flow](Images/NodeRED_Flow.png)  
+![Node-RED Flow](Nodered Flow/Nodered Flow.png)  
 
 ### 🔹 Node-RED Dashboard  
 ![Node-RED Dashboard](Images/NodeRED_Dashboard.png)  
