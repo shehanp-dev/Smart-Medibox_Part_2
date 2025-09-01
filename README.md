@@ -7,8 +7,8 @@
 ![Language](https://img.shields.io/badge/Language-Arduino-green)
 ![Simulation](https://img.shields.io/badge/Simulation-Wokwi-orange)
 
-
-This is my implementation of the **Smart Medibox** for  EN2853 - Embedded Systems & Applications module`  
+# Introduction
+This is my implementation of the **Smart Medibox** project for  EN2853 - Embedded Systems & Applications module.  
 
 The Medibox helps users manage **medication schedules** and improve **medicine storage safety** by monitoring **light intensity** and **temperature**, while adjusting a **servo-controlled sliding window** to keep medicines in safe conditions.
 
@@ -104,7 +104,7 @@ Where:
 ![Wokwi Simulation](Images/Wokwi_Simulation.png)  
 
 ### 🔹Node-RED Flow  
-![Wokwi Simulation](Imeges/Nodered Flow)  
+![Wokwi Simulation](Imeges/Nodered-Flow.png)  
 
 ### 🔹 Node-RED Dashboard  
 ![Node-RED Dashboard](Imeges/Dashboard.jpg)  
