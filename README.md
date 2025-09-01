@@ -1,0 +1,105 @@
+![Banner](./images/repoBanner.png)
+
+# 💊 Smart Medibox – Assignment Project
+
+This is my implementation of the **Smart Medibox** for  
+`EN2853 - Embedded Systems & Applications` (Programming Assignment 2).  
+
+The Medibox helps users manage **medication schedules** and improve **medicine storage safety** by monitoring **light intensity** and **temperature**, while adjusting a **servo-controlled sliding window** to keep medicines in safe conditions.
+
+---
+
+## ✨ Features
+
+1. **Light Intensity Monitoring**
+   - Measures light inside the box using **LDR sensors**.  
+   - Samples values every **ts seconds** (default: 5s).  
+   - Sends **averaged values** to Node-RED dashboard every **tu minutes** (default: 2 min).  
+   - Values are normalized between `0` (dark) and `1` (bright).  
+
+2. **Servo-Controlled Sliding Window**
+   - Servo motor adjusts between **0°–180°**.  
+   - Position depends on light intensity + temperature.  
+   - Prevents direct sunlight from spoiling medicines.  
+
+3. **Temperature Monitoring**
+   - Uses **DHT11 sensor** for temperature readings.  
+   - Ideal storage temperature (`Tmed`) is user-configurable.  
+
+4. **Dynamic Configuration (via Node-RED)**
+   - Sampling interval `ts` (seconds).  
+   - Data sending interval `tu` (seconds/minutes).  
+   - Minimum servo angle (`θoffset`) [0°–120°].  
+   - Controlling factor (`γ`) [0–1].  
+   - Ideal medicine temperature (`Tmed`) [10°C–40°C].  
+
+---
+
+## 🛠️ Components & Technologies
+
+- **ESP32 Devkit V1**  
+- **DHT11 Sensor** (Temperature & Humidity)  
+- **LDR Sensors** + Resistors  
+- **SG90 Servo Motor**  
+- **Node-RED** (Dashboard + MQTT broker `test.mosquitto.org`)  
+- **PlatformIO / Arduino Framework**  
+
+<div align="center">
+	<code><img width="50" src="./images/icons/esp32.png" alt="ESP32"/></code>
+	<code><img width="50" src="./images/icons/ldr.png" alt="LDR"/></code>
+	<code><img width="50" src="./images/icons/dht11.png" alt="DHT11"/></code>
+	<code><img width="50" src="./images/icons/servo.png" alt="Servo"/></code>
+	<code><img width="50" src="./images/icons/node-red.png" alt="Node-RED"/></code>
+</div>
+
+---
+
+## 📐 Motor Angle Equation
+
+The servo motor angle `θ` is calculated as:
+
+$$θ = θ_{offset} + (180 - θ_{offset}) × I × γ × \ln \left(\frac{t_s}{t_u}\right) × \frac{T_{med}}{T}$$
+
+Where:  
+
+| Symbol | Description |
+|--------|-------------|
+| `θ` | Servo motor angle |
+| `θoffset` | Minimum servo angle (default = 30°) |
+| `I` | Light intensity (normalized 0–1) |
+| `γ` | Controlling factor (default = 0.75) |
+| `ts` | Sampling interval (seconds) |
+| `tu` | Sending interval (seconds/minutes) |
+| `T` | Current measured temperature (°C) |
+| `Tmed` | Ideal medicine storage temperature (°C, default = 30°C) |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- [Git](https://git-scm.com/)  
+- [VS Code](https://code.visualstudio.com/) + [PlatformIO](https://platformio.org/)  
+- [Node-RED](https://nodered.org/) installed  
+- MQTT broker (default: [test.mosquitto.org](https://test.mosquitto.org))  
+
+### Clone Repository
+```bash
+git clone https://github.com/shehanp-dev/Smart-Medibox.git
+
+If you are willing to simulate the project using Wokwi extension, then clone the relavant branch using this, instead. (Or you can switch branches later.)
+
+git clone -b Wokwi https://github.com/shehanp-dev/Smart-Medibox.git
+
+## 📊 Visualization  
+
+### 🔹 Wokwi Simulation  
+![Wokwi Simulation](Images/Wokwi_Simulation.png)  
+
+### 🔹 Node-RED Flow  
+![Node-RED Flow](Images/NodeRED_Flow.png)  
+
+### 🔹 Node-RED Dashboard  
+![Node-RED Dashboard](Images/NodeRED_Dashboard.png)  
+"# Smart-MediBox-Part-02" 
+"# Smart-Medibox_02" 
