@@ -84,7 +84,7 @@ Where:
 - MQTT broker (default: [test.mosquitto.org](https://test.mosquitto.org))  
 
 ### Clone Repository
-```bash
+
 git clone https://github.com/shehanp-dev/Smart-Medibox.git
 
 If you are willing to simulate the project using Wokwi extension, then clone the relavant branch using this, instead. (Or you can switch branches later.)
