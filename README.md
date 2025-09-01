@@ -1,4 +1,4 @@
-![Banner](./images/Imeges/Banner_1.png)
+![Banner](.Imeges/Banner_1.png)
 
 # 💊 Smart Medibox – Assignment Project
 
