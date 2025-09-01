@@ -1,6 +1,7 @@
-![Banner](Imeges/Banner_1.png)
 
-# 💊 Smart Medibox – Assignment Project
+# 💊 Smart Medi Box - Medication Management System-part 02
+
+![Banner](Imeges/Banner_1.png)
 
 ![ESP32](https://img.shields.io/badge/Platform-ESP32-blue)
 ![Language](https://img.shields.io/badge/Language-Arduino-green)
