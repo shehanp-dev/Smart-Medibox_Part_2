@@ -104,7 +104,7 @@ Where:
 ![Wokwi Simulation](Images/Wokwi_Simulation.png)  
 
 ### 🔹Node-RED Flow  
-![Wokwi Simulation](Imeges/Nodered_Flow.png)  
+![Node-Red Flow](Imeges/Nodered Flow.png)  
 
 ### 🔹 Node-RED Dashboard  
 ![Node-RED Dashboard](Imeges/Dashboard.jpg)  
