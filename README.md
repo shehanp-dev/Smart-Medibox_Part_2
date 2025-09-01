@@ -1,9 +1,13 @@
-![Banner](./images/repoBanner.png)
+![Banner](./images/Imeges/Banner_1.png)
 
 # 💊 Smart Medibox – Assignment Project
 
-This is my implementation of the **Smart Medibox** for  
-`EN2853 - Embedded Systems & Applications` (Programming Assignment 2).  
+![ESP32](https://img.shields.io/badge/Platform-ESP32-blue)
+![Language](https://img.shields.io/badge/Language-Arduino-green)
+![Simulation](https://img.shields.io/badge/Simulation-Wokwi-orange)
+
+
+This is my implementation of the **Smart Medibox** for  EN2853 - Embedded Systems & Applications module`  
 
 The Medibox helps users manage **medication schedules** and improve **medicine storage safety** by monitoring **light intensity** and **temperature**, while adjusting a **servo-controlled sliding window** to keep medicines in safe conditions.
 
@@ -44,17 +48,9 @@ The Medibox helps users manage **medication schedules** and improve **medicine s
 - **Node-RED** (Dashboard + MQTT broker `test.mosquitto.org`)  
 - **PlatformIO / Arduino Framework**  
 
-<div align="center">
-	<code><img width="50" src="./images/icons/esp32.png" alt="ESP32"/></code>
-	<code><img width="50" src="./images/icons/ldr.png" alt="LDR"/></code>
-	<code><img width="50" src="./images/icons/dht11.png" alt="DHT11"/></code>
-	<code><img width="50" src="./images/icons/servo.png" alt="Servo"/></code>
-	<code><img width="50" src="./images/icons/node-red.png" alt="Node-RED"/></code>
-</div>
 
----
 
-## 📐 Motor Angle Equation
+## 📐 Motor Angle Calculation
 
 The servo motor angle `θ` is calculated as:
 
@@ -81,15 +77,25 @@ Where:
 - [Git](https://git-scm.com/)  
 - [VS Code](https://code.visualstudio.com/) + [PlatformIO](https://platformio.org/)  
 - [Node-RED](https://nodered.org/) installed  
-- MQTT broker (default: [test.mosquitto.org](https://test.mosquitto.org))  
+- MQTT broker (default: [test.mosquitto.org](https://test.mosquitto.org))
 
-### Clone Repository
-```bash
-git clone https://github.com/shehanp-dev/Smart-Medibox.git
+## Medibox Setup
+*   Clone the repository.
+    ```bash 
+    git clone https://github.com/shehanp-dev/Smart-Medibox.git   
+    ```
 
-If you are willing to simulate the project using Wokwi extension, then clone the relavant branch using this, instead. (Or you can switch branches later.)
+ >[!IMPORTANT]<br>
+> If you are willing to simulate the project using Wokwi extension, then clone the relavant branch using this, instead. (Or you can switch branches later.)
+>    ```bash 
+>     git clone -b Wokwi https://github.com/shehanp-dev/Smart-Medibox.git   
+>  ```
 
-git clone -b Wokwi https://github.com/shehanp-dev/Smart-Medibox.git
+
+* Typically platform I/O will install required libraries itself. If not you have to install them referring the [`platform.ini`](#platform.ini)
+ file displayed above.
+
+* Compile and Upload/Simulate.
 
 ## 📊 Visualization  
 
