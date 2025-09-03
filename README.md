@@ -3,10 +3,10 @@
 
 ![Banner](Imeges/Banner_1.png)
 
-![ESP32](https://img.shields.io/badge/Platform-ESP32-blue)  
-![Language](https://img.shields.io/badge/Language-Arduino-green)  
-![Simulation](https://img.shields.io/badge/Simulation-Wokwi-orange)  
-![Node-RED](https://img.shields.io/badge/Node--RED-Dashboard-red)  
+![ESP32](https://img.shields.io/badge/Platform-ESP32-blue) 
+![Language](https://img.shields.io/badge/Language-Arduino-green) 
+![Simulation](https://img.shields.io/badge/Simulation-Wokwi-orange) 
+![Node-RED](https://img.shields.io/badge/Node--RED-Dashboard-red) 
 ![MQTT](https://img.shields.io/badge/MQTT-Broker-brightgreen)
 
 # Introduction
